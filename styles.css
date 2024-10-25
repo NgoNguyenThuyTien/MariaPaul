@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.cv-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    width: 30%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #333;
+}
+
+.contact-info, .skills {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contact-info h2, .skills h2 {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.contact-info p, .skills ul {
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+.skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.right-column {
+    width: 70%;
+    padding: 30px;
+}
+
+header {
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #777;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;  /* Màu nền tổng quan nhẹ nhàng */
+    color: #333;
+}
+
+.cv-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.left-column {
+    width: 30%;
+    background-color: #2c3e50;  /* Màu nền xanh đậm cho phần trái */
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;  /* Màu chữ trắng cho phần trái */
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #fff;  /* Viền trắng cho hình ảnh */
+}
+
+.contact-info, .skills {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contact-info h2, .skills h2 {
+    font-size: 1.2em;
+    color: #ecf0f1;  /* Màu nhạt cho tiêu đề phần thông tin và kỹ năng */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+.contact-info p, .skills ul {
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+.skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.right-column {
+    width: 70%;
+    padding: 30px;
+    background-color: #fff;  /* Nền trắng sáng cho phần phải */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header {
+    border-bottom: 2px solid #2980b9;  /* Đường viền màu xanh dương */
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #2c3e50;  /* Tiêu đề màu xanh đậm */
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #7f8c8d;  /* Màu xám nhạt cho phần miêu tả ngành học */
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #2980b9;  /* Tiêu đề các phần chính màu xanh dương */
+    margin-bottom: 10px;
+}
+
+section h3 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    color: #34495e;  /* Màu xanh đậm cho các tiêu đề phụ */
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #2980b9;  /* Liên kết màu xanh dương */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
